@@ -1,0 +1,215 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #4caf50;
+  ]color: #333;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.board {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.list {
+  background-color: #e2e4e6;
+  padding: 10px;
+  border-radius: 3px;
+  width: 250px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+}
+
+.list h3 {
+  margin: 0 0 10px 0;
+  font-size: 1.2rem;
+}
+
+.card {
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card:last-child {
+  margin-bottom: 0;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  resize: none;
+}
+
+button {
+  padding: 8px 12px;
+  margin-right: 5px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button.add {
+  background-color: #4caf50;
+  color: white;
+}
+
+button.save {
+  background-color: #4caf50;
+  color: white;
+}
+
+button.delete {
+  background-color: #f44336;
+  color: white;
+}
+
+button.cancel {
+  background-color: #ccc;
+  color: #333;
+}
+
+button.add-list {
+  background-color: #4caf50;
+  color: white;
+}
+
+.add-card,
+.add-list {
+  background-color: #e2e4e6;
+  padding: 10px;
+  border-radius: 3px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
+}
+
+.add-list-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.close-btn {
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px;
+  color: #888;
+}
+
+.close-btn:hover {
+  color: #333;
+}
+.list {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 10px;
+  min-width: 250px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.card {
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-text {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.card-input {
+  width: 70%;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.new-card {
+  margin-top: 10px;
+}
+
+.new-card-input {
+  width: 70%;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background-color: #ffc107;
+  color: white;
+}
+
+.save-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.cancel-btn {
+  background-color: #6c757d;
+  color: white;
+}
+
+.add-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.editing-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
